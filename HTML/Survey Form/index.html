@@ -6,6 +6,53 @@
   </head>
 
   <body>
-    
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:
+        <input id="name" type="text" placeholder="Enter your name" required/>
+      </label>
+      
+      <label for="email" id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required/>
+      </label>
+      
+      <label for="number" id="number-label">Age:</label>
+        <input id="number" type="number" min="1" max="120" placeholder="Age"/>
+      </label>
+      
+      <label for="dropdown" id="dropdown-label">Which platform do you use the most?</label>
+      <select id="dropdown">
+        <option disabled selected value="">Select your platform...</option>
+        <option value="ps5">PS5</option>
+        <option value="xbox">Xbox Series X/S</option>
+        <option value="pc">PC</option>
+      </select>
+      
+      <label for="recommend" id="recommend-label">Would you recommend our platform to others?
+      <input type="radio" name="recommend" value="definitely" /> definitely
+      </label>
+      <label>
+        <input type="radio" name="recommend" value="maybe" /> maybe
+      </label>
+      <label>
+        <input type="radio" name="recommend" value="not-sure" /> not sure
+      </label>
+
+      <label>Played games</label>
+      <label>
+      <input type="checkbox" name="games" value="gta V" /> GTA V
+      </label>
+      <label>
+      <input type="checkbox" name="games" value="fortnite" /> Fortnite
+      </label>
+      <label>
+      <input type="checkbox" name="games" value="minecraft" /> Minecraft
+      </label>
+      
+      <textarea id="comments" placeholder="Any comments?" rows="4" cols="50"></textarea>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
   </body>
 </html>
