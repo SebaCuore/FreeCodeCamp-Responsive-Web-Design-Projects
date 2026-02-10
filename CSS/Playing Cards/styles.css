@@ -23,7 +23,8 @@ body {
 
 #playing-cards {
   display: flex;
-  gap: 30px; 
+  justify-content: center;
+  gap: 20px; 
   flex-wrap: wrap;
   padding: 20px;
 }
@@ -66,6 +67,8 @@ body {
 }
 
 .middle {
+  display: flex;
+  flex-direction: column;
   align-self: center; 
   font-size: 48px; 
 }
