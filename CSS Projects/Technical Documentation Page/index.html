@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+  <body>
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#getting_started">Getting Started</a></li>
+            <li><a class="nav-link" href="#basic_syntax">Basic Syntax</a></li>
+            <li><a class="nav-link" href="#variables">Variables</a></li>
+            <li><a class="nav-link" href="#data_types">Data Types</a></li>
+            <li><a class="nav-link" href="#control_structures">Control Structures</a></li>
+            <li><a class="nav-link" href="#functions">Functions</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header> 
+            <p>C# is a modern, object-oriented programming language developed by Microsoft.</p>
+            <p>It is widely used for building a variety of applications. Some key features include:</p>
+            <ul>
+                <li>Strongly Typed: Catches errors at compile time.</li>
+                <li>Component Oriented: Great for scalable applications.</li>
+                <li>Cross-Platform: Runs on Windows, Mac, and Linux via .NET.</li>
+            </ul>
+            <p>Official Website: <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">C# Documentation</a></p>
+        </section>
+
+        <section class="main-section" id="getting_started">
+            <header>Getting Started</header>
+            <p>To get started with C#, you need to set up your environment using the following tools:</p>
+            <ul>
+                <li>Download .NET SDK: <a href="https://dotnet.microsoft.com/download" target="_blank">.NET Download</a></li>
+                <li>Visual Studio IDE: <a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio</a></li>
+            </ul>
+            <p>Once you have the necessary tools, you can create a new C# project and start writing code.</p>
+        </section>
+
+        <section class="main-section" id="basic_syntax">
+            <header>Basic Syntax</header>
+            <p>C# syntax is similar to other C-based languages, making it easy to learn for developers familiar with languages like C, C++, or Java.</p>
+            <p>Here is a simple example of a C# program:</p>
+            <pre><code>using System;</code></pre>
+        </section>
+
+        <section class="main-section" id="variables">
+            <header>Variables</header>
+            <p>In C#, variables are declared with a type followed by a name and an optional initial value.</p>
+            <pre><code>int age = 25;</code></pre>
+        </section>
+
+        <section class="main-section" id="data_types">
+            <header>Data Types</header>
+            <p>C# supports various built-in data types. The most common ones are:</p>
+            <ul>
+                <li><strong>int</strong>: Used for whole numbers (e.g., 10, -5).</li>
+                <li><strong>double</strong>: Used for fractional numbers (e.g., 3.14, -0.5).</li>
+                <li><strong>string</strong>: Used for text (e.g., "Hello World").</li>
+                <li><strong>bool</strong>: Used for logic values (true or false).</li>
+            </ul>
+            <pre><code>int number = 10;
+ double decimalNumber = 10.5;
+ string name = "John";
+ bool isTrue = true;</code></pre>
+        </section>
+
+        <section class="main-section" id="control_structures">
+            <header>Control Structures</header>
+            <p>C# provides various control structures such as if-else statements, switch statements, and loops (for, while, do-while).</p>
+            <pre><code>if (age > 18) {
+    Console.WriteLine("Adult");
+}</code></pre>
+        </section>
+
+        <section class="main-section" id="functions">
+            <header>Functions</header>
+            <p>Functions in C# are defined using the 'void' keyword for functions that do not return a value, or a specific return type for functions that do.</p>
+            <pre><code>void Greet(string name) {
+    Console.WriteLine("Hello, " + name);
+}</code></pre>
+        </section>
+
+    </main>
+  
+  </body>
+</html>
